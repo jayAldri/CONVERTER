@@ -47,19 +47,22 @@ function checkGradeEquivalency() {
   } else if (gradeInput >= 90 && gradeInput < 96){
     document.getElementById('grade-equivalency').innerHTML = "B+";
     return;
-  } else if (gradeInput >= 89 && gradeInput < 95){
+  } else if (gradeInput >= 85 && gradeInput < 90){
     document.getElementById('grade-equivalency').innerHTML = "B";
     return;
-  } else if (gradeInput >= 80 && gradeInput < 84){
+  } else if (gradeInput >= 80 && gradeInput < 85){
     document.getElementById('grade-equivalency').innerHTML = "C+";
     return;
-  } else if (gradeInput >= 75 && gradeInput < 79){
+  } else if (gradeInput >= 75 && gradeInput < 80){
     document.getElementById('grade-equivalency').innerHTML = "C";
     return;
-  } else if (gradeInput >= 0 && gradeInput < 75){
+  } else if (gradeInput >= 74 && gradeInput < 75){
     document.getElementById('grade-equivalency').innerHTML = "INC";
     return; 
-  } else {
+  } else if (gradeInput >= 0 && gradeInput < 74){
+    document.getElementById('grade-equivalency').innerHTML = "FAILED";
+    return;}
+  else {
     document.getElementById('grade-equivalency').innerHTML = "Invalid grade";
   }
 }
