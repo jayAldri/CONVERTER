@@ -64,6 +64,11 @@ function checkGradeEquivalency() {
   }
 }
 
+
+
+
+//ANO MERON?
+
 document.getElementById('grade-input').addEventListener('keypress', function (e) {
   if (e.key === 'Enter') {
     checkGradeEquivalency();
