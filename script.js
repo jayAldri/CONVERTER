@@ -56,7 +56,7 @@ function checkGradeEquivalency() {
   } else if (gradeInput >= 75 && gradeInput < 79){
     document.getElementById('grade-equivalency').innerHTML = "C";
     return;
-  } else if (gradeInput >= 0 && gradeInput < 74){
+  } else if (gradeInput >= 0 && gradeInput < 75){
     document.getElementById('grade-equivalency').innerHTML = "INC";
     return; 
   } else {
