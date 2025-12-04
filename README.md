@@ -68,4 +68,4 @@ Copy code
 ## Author
 
 - JAY ALDRIN RABI
-- GitHub: https://jayaldri.github.io/CONVERTER/
+- GitHub: [https://jayaldri.github.io/CONVERTER/](https://github.com/jayAldri)
