@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAHBI CONVERTER</title>
+<link rel="icon" type="image/png" href="IMAGES/logo.png">
+
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/converter.css">
+
+</head>
+<body>
+
+  <section class="sect1">
+    <div class="title">
+      <h1>Student Academic Tools</h1>
+      <h3>Convert year numbers and grades instantly</h3>
+    </div>
+
+    <div class="converter-box">
+
+      <div class="card">
+        <div class="card-header">
+          <span class="icon">🎓</span>
+          <div>
+            <h2>Year Level</h2>
+            <p>Enter 1–4 to get year level</p>
+          </div>
+        </div>
+
+        <input type="number" placeholder="Enter year number (1-4)" class="input" id="year-input">
+
+        <button class="btn" onclick="checkLeapYear()">Get Year Level</button>
+
+        <h1 id="year-level"></h1>
+
+        <ul class="notes">
+          <li>1 – Freshmen</li>
+          <li>2 – Sophomore</li>
+          <li>3 – Junior</li>
+          <li>4 – Senior</li>
+        </ul>
+      </div>
+
+
+
+      <div class="converter-box-right">
+         <div class="card">
+        <div class="card-header">
+          <span class="icon">🎓</span>
+          <div>
+            <h2>Grade Equivalency</h2>
+            <p>Enter grade (0-100)l</p>
+
+            
+          </div>
+        </div>
+
+        <input type="number" placeholder="Enter grade (0-100)" class="input grade" id="grade-input">
+
+        <button class="btn" onclick="checkGradeEquivalency()">Get Letter Grade</button>
+
+        <h1 id="grade-equivalency"></h1>
+
+        <ul class="notes">
+          <li>96-100 → A</li>
+          <li>90-95 → B+</li>
+          <li>85-89 → B</li>
+          <li>80-84 → C+</li>
+          <li>75-79 → C</li>
+          <li>74 → INC</li>
+          <li>Below 74 → Failed</li>
+        </ul>
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+<script src="script.js"></script>
+
+  
+</body>
+</html>

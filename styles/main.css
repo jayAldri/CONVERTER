@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+  height: auto;
+  background: url('../IMAGES/back.png') center/cover no-repeat;
+
+
+  justify-content: center; 
+  align-items: center;      
+  text-align: center;       
+}
+.title{
+  margin-top: 120px;
+}
+
+.title h1, .title h3{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
